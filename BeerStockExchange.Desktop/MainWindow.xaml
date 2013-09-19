@@ -12,9 +12,10 @@
         
         <ItemsControl.ItemTemplate>
             <DataTemplate>
-                <Grid Height="100" Width="100" Background="Blue" Margin="10,10,0,0">
+                <StackPanel Height="100" Width="100" Background="Blue" Margin="10,10,0,0">
+                    <Image Source="{Binding Image}"></Image>
                     <Label Content="{Binding Name}"></Label>
-                </Grid>
+                </StackPanel>
             </DataTemplate>
         </ItemsControl.ItemTemplate>
     </ItemsControl>

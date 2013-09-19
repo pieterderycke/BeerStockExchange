@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
+using System.Windows.Media;
 
 namespace BeerStockExchange.Desktop.Proxy
 {
@@ -9,5 +10,6 @@ namespace BeerStockExchange.Desktop.Proxy
     {
         public int Id { get; set; }
         public string Name { get; set; }
+        public ImageSource Image { get; set; }
     }
 }
